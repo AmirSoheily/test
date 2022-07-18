@@ -16,7 +16,7 @@ const Counter = ({ amirProps }) => {
       </button>
       <span>{State}</span>
       <button style={style} onClick={() => setState(State - 1)}>
-        -
+        est -
       </button>
     </dive>
   );
