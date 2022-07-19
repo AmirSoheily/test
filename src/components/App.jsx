@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { createContext, useState } from "react";
 
 import CounterHook from "./Counterhook/CounterHook";
