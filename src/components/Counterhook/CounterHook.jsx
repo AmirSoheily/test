@@ -3,10 +3,11 @@
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "../App";
 
-const CounterHook = ({ amirProps }) => {
-  const [State, setState] = useState(amirProps);
-  const style = useContext(ThemeContext);
+const Counter = ({ amirProps }) => {
   debugger;
+  const style = useContext(ThemeContext);
+
+  const [State, setState] = useState(amirProps);
 
   return (
     <dive>
@@ -15,10 +16,11 @@ const CounterHook = ({ amirProps }) => {
       </button>
       <span>{State}</span>
       <button style={style} onClick={() => setState(State - 1)}>
-        -
+        est - sdasdsa
+      </button>
+      <button style={style} onClick={() => setState(State - 1)}>
+        est - sdasdsa
       </button>
     </dive>
   );
 };
-
-export default CounterHook;
